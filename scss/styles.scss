@@ -1,13 +1,16 @@
-// $gray : #d3d3d3;
-//
-// body {
-//   background: $gray;
-//   border: 3px solid black;
-//   padding: 40px 80px;
-//   h2 {
-//     font-weight: bold;
-//     text-align: center;
-//     background: black;
-//     color: white;
-//   }
-// }
+.band-group img {
+  max-width: 500px;
+}
+
+.band-group h3 {
+  margin-top: 2%;
+  padding-bottom: 1%;
+}
+
+#top-text {
+  margin: 3.5% 0 3.5% 0;
+}
+
+#band-name {
+  color: #5cb85c;
+}
