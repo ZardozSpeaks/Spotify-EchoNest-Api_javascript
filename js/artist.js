@@ -1,16 +1,19 @@
-exports.Artist = function() {
+module.exports.Artist = Artist;
+
+function Artist() {
+    this.id = "";
     this.name = "";
     this.genres = [];
     this.popularity = 0;
     this.href = "";
     this.images = [];
-};
+}
 
-exports.Artist.prototype.addImages = function(images) {
+Artist.prototype.addImages = function(images) {
     this.images.push(images);
 };
 
-exports.Artist.prototype.getArtist = function() {
+Artist.prototype.getArtist = function() {
     var artistInfo = [];
     artistInfo.push(this.name);
     artistInfo.push(this.genres);
